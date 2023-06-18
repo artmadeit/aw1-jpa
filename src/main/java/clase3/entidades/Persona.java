@@ -1,5 +1,7 @@
 package clase3.entidades;
 
+import java.time.LocalDateTime;
+
 import javax.persistence.*;
 
 @Entity
@@ -20,4 +22,6 @@ public class Persona {
 	String apellido;
 
 	String nombre;
+	
+	LocalDateTime fechaCreacion;
 }
