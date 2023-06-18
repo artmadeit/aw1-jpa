@@ -27,4 +27,9 @@ public class Persona {
 	
 	@CreationTimestamp
 	LocalDateTime fechaCreacion;
+	
+	
+	String direccion;
+	String calle;
+	String numeroApartamento;
 }
