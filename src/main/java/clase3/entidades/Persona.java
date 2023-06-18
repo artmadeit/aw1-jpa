@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 
 import javax.persistence.*;
 
+import org.hibernate.annotations.CreationTimestamp;
+
 @Entity
 @Table(name = "tbl_persona")
 public class Persona {
@@ -23,5 +25,6 @@ public class Persona {
 
 	String nombre;
 	
+	@CreationTimestamp
 	LocalDateTime fechaCreacion;
 }
