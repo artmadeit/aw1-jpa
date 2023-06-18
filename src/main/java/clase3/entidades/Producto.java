@@ -14,6 +14,8 @@ public class Producto {
 	Long id;
 	
 	String nombre;
+	String descripcion;
+	
 	BigDecimal precio;
 	Integer stock;
 }
